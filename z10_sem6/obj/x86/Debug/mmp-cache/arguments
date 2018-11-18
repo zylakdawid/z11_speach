@@ -1,0 +1,19 @@
+# Version: 4.2.0.20 (d15-6: 1c6f300e)
+# [first argument, ignore] # /Library/Frameworks/Xamarin.Mac.framework/Versions/4.2.0.20/lib/mmp/mmp.exe
+/Library/Frameworks/Xamarin.Mac.framework/Versions/4.2.0.20/lib/mmp/mmp.exe \
+	/verbose \
+	/debug \
+	/output:/Users/dawidzylak/Projects/z10_sem6/z10_sem6/bin/Debug/ \
+	/name:z10_sem6 \
+	'/profile:Xamarin.Mac,Version=v2.0,Profile=Mobile' \
+	/arch:x86_64 \
+	--http-message-handler=HttpClientHandler \
+	/minos=10.13 \
+	/nolink \
+	/assembly:/Library/Frameworks/Xamarin.Mac.framework/Versions/Current/lib/mono/Xamarin.Mac/mscorlib.dll \
+	/assembly:/Library/Frameworks/Xamarin.Mac.framework/Versions/Current/lib/mono/Xamarin.Mac/System.Core.dll \
+	/assembly:/Library/Frameworks/Xamarin.Mac.framework/Versions/Current/lib/mono/Xamarin.Mac/System.dll \
+	/assembly:/Library/Frameworks/Xamarin.Mac.framework/Versions/Current/lib/mono/Xamarin.Mac/Xamarin.Mac.dll \
+	/root-assembly:/Users/dawidzylak/Projects/z10_sem6/z10_sem6/bin/Debug/z10_sem6.exe \
+	/sdkroot:/Applications/Xcode.app/Contents/Developer \
+	--cache:/Users/dawidzylak/Projects/z10_sem6/z10_sem6/obj/x86/Debug/mmp-cache \
